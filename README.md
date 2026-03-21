@@ -1,31 +1,30 @@
-# mise-gib
+<h1 align="center">mise-gib</h1>
 
-[mise](https://mise.jdx.dev) plugin for [gib](https://github.com/jbadeau/gib) (Go Container Builder).
+<p align="center">
+  <a href="https://mise.jdx.dev">Mise</a> plugin for <a href="https://github.com/jbadeau/gib">Gib</a>.
+</p>
 
-## Usage
+---
 
-```bash
+## Install
+
+```sh
 mise plugin install gib https://github.com/jbadeau/mise-gib.git
-
-mise install gib@0.1.0
-
-mise use gib@0.1.0
 ```
 
-Alternatively, add the plugin and tool directly in your `mise.toml`:
+```sh
+mise install gib@latest
+```
 
-```toml
-[plugins]
-gib = "https://github.com/jbadeau/mise-gib.git"
-
-[tools]
-gib = "0.1.0"
+```sh
+mise use gib@latest
 ```
 
 ## Supported Platforms
 
-| OS      | Architecture |
-|---------|-------------|
-| Linux   | amd64, arm64 |
-| macOS   | amd64, arm64 |
+| OS | Architecture |
+|---|---|
+| Linux | amd64, arm64 |
+| macOS | amd64, arm64 |
 | Windows | amd64, arm64 |
+
